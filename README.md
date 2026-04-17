@@ -1,9 +1,8 @@
 # Blog
 
-- 源代码托管于 gitlab，自动同步到 GitHub
-- 通过 Vercel 构建并部署 (`npm run deploy` / `sh build.sh`)
+https://hglog.github.io
 
-## install theme
+## Install Theme
 
 > Theme folder is not in this repo by default. Run this command at the first time.
 
@@ -16,14 +15,20 @@ cp themes/minos/_config.example.yml themes/minos/_config.yml
 # node init_script.js
 ```
 
-## local dev
+## Development
 
 ```sh
-yarn serve # hexo s
+npm run serve # hexo s
 ```
 
-## generate
+## Generate Static
 
 ```sh
-yarn build # hexo g
+npm run build # hexo g
+```
+
+## Automatic Deployment
+
+```sh
+npm run realbuild
 ```
